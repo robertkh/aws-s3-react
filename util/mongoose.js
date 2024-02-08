@@ -1,7 +1,7 @@
 //?
 import { ml, f_str, rl } from "./logger.js";
 import mongoose from "mongoose";
-const uri = MONGO_URI;
+const uri = "mongodb+srv://heroku:TO79O0qWkOxrrSJi@cluster0.jmjzr.mongodb.net/assistent?retryWrites=true&w=majority";
 
 //?
 mongoose
