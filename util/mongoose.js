@@ -8,7 +8,6 @@ mongoose
   .connect(uri, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
-   // useCreateIndex: true,
   })
   .then(() => ml.log("MongoDB has been connected!"))
   .catch((err) => {
