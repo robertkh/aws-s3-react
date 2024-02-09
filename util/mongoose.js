@@ -1,7 +1,7 @@
 //?
 import { ml, f_str, rl } from "./logger.js";
 import mongoose from "mongoose";
-const uri = MONGO_URI;
+const uri = proccess.env.MONGO_URI;
 
 //?
 mongoose
